@@ -2,6 +2,13 @@
 
 Design and implement a RESTful API for managing tasks using Node.js and mongoDB.
 
+## Implemented a user authentication system:
+
+    - Users can register, log in, and log out.
+    - Use JWT (JSON Web Tokens) for securing routes.
+    - Only authenticated users can perform create, update, or delete
+    - Middleware to protect task-related routes.
+
 ## Project Setup Instructions
 
 ### Prerequisites
