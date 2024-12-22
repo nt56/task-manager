@@ -43,7 +43,9 @@ Design and implement a RESTful API or GraphQL API for managing tasks using Node.
 
 1. Get all the task.
     - /POST/addTask : add the new task
-    json [
+
+    ```json 
+    [
         {
         "title" : "Drink",
         "description" : "Drinking Water on time."
