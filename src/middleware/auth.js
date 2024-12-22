@@ -9,7 +9,7 @@ const userAuth = async (req, res, next) => {
       throw new Error("Invalid user...!");
     }
 
-    const isValidToken = await jwt.verify(token, JWT_SECRET);
+    const isValidToken = await jwt.verify(token, process.env.JWT_SECRET);
 
     const { _id } = isValidToken;
     const user = await User.findById(_id);
